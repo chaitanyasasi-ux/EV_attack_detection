@@ -1,0 +1,25 @@
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+
+# --- Python Cache ---
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Data & Machine Learning (Large Files) ---
+# This will catch the acndata file and your model weights
+*.json
+*.pth
+*.pkl
+*.scaler
+
+# --- IDE & System ---
+.vscode/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
